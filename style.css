@@ -1,0 +1,58 @@
+#container{
+    width:90%;
+    margin:0px auto;
+    background-color: aliceblue;
+    height: 1000px;
+}
+#container #banner{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+#container #menu{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+#container #sub-container{
+    width: 100%;
+    /*height: 300px;*/
+    display: flex;
+}
+#container #sub-container .lsub-cont{
+    width:80%;
+    /*height: 100%;*/
+    background-color: coral;
+    float:left;
+}
+#container #sub-container .rsub-cont{
+    width:20%;
+    float:left;
+}
+#container #sub-container .rsub-cont .upper{
+    width:100%;
+    height:50%;
+    background-color: aquamarine;
+}
+#container #sub-container .rsub-cont .lower{
+    width:100%;
+    height:50%;
+    background-color: bisque;
+}
+#container #lsidebar{
+    width:25%;
+    /*height: 200px;*/
+    float:left;
+    background-color: beige;
+}
+#container #content{
+    width:75%;
+    /*height:200px;*/
+    float:left;
+    background-color: blueviolet;
+}
+#container #bottom{
+    width: 100%;
+    height:150px;
+    background-color: aqua;
+}
